@@ -4,6 +4,10 @@ import Interface.IElectric;
 import Logic.Pokemon;
 
 public class Pikachu extends Pokemon implements IElectric {
+
+    public Pikachu() {
+    }
+
     @Override
     protected void attackTackle() {
         System.out.println("Hello! I'm Pikachu and this is my Tackle Attack");

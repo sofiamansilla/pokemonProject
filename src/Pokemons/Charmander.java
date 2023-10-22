@@ -4,6 +4,10 @@ import Interface.IFire;
 import Logic.Pokemon;
 
 public class Charmander extends Pokemon implements IFire {
+
+    public Charmander() {
+    }
+
     @Override
     protected void attackTackle() {
         System.out.println("Hello! I'm Charmander and this is my Tackle Attack");

@@ -10,8 +10,14 @@ public class Squirtle extends Pokemon implements IWater {
 
     }
 
+    public Squirtle() {
+    }
+
     @Override
     protected void attackScratch() {
+
+
+
         System.out.println("Hello! I'm Squirtle and this is my Scratch Attack");
 
     }
