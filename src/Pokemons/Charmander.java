@@ -9,19 +9,19 @@ public class Charmander extends Pokemon implements IFire {
     }
 
     @Override
-    protected void attackTackle() {
+    public void attackTackle() {
         System.out.println("Hello! I'm Charmander and this is my Tackle Attack");
 
     }
 
     @Override
-    protected void attackScratch() {
+    public void attackScratch() {
         System.out.println("Hello! I'm Charmander and this is my Scrath Attack");
 
     }
 
     @Override
-    protected void attackByte() {
+    public void attackByte() {
         System.out.println("Hello! I'm Charmander and this is my Byte Attack");
 
     }

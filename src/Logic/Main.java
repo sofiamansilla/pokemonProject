@@ -14,5 +14,15 @@ public class Main {
         Bulbasaur bulbasaur = new Bulbasaur();
         Pikachu pikachu = new Pikachu();
 
+        squirtle.attackScratch();
+        squirtle.attackHydroBomb();
+        charmander.attackScratch();
+        charmander.attackFlameThrower();
+        bulbasaur.attackScratch();
+        bulbasaur.attackDrainage();
+        pikachu.attackScratch();
+        pikachu.attackThunderImpact();
+
+
     }
 }

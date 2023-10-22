@@ -9,19 +9,19 @@ public class Bulbasaur extends Pokemon implements IPlant {
     }
 
     @Override
-    protected void attackTackle() {
+    public void attackTackle() {
         System.out.println("Hello! I'm Bulbasaur and this is my Tackle Attack");
 
     }
 
     @Override
-    protected void attackScratch() {
+    public void attackScratch() {
         System.out.println("Hello! I'm Bulbasaur and this is my Scratch Attack");
 
     }
 
     @Override
-    protected void attackByte() {
+    public void attackByte() {
         System.out.println("Hello! I'm Bulbasaur and this is my Byte Attack");
 
     }

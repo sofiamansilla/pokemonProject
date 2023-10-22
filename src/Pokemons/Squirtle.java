@@ -4,17 +4,20 @@ import Interface.IWater;
 import Logic.Pokemon;
 
 public class Squirtle extends Pokemon implements IWater {
-    @Override
-    protected void attackTackle() {
-        System.out.println("Hello! I'm Squirtle and this is my Tackle Attack");
 
-    }
 
     public Squirtle() {
     }
 
     @Override
-    protected void attackScratch() {
+    public void attackTackle() {
+        System.out.println("Hello! I'm Squirtle and this is my Tackle Attack");
+
+    }
+
+
+    @Override
+    public void attackScratch() {
 
 
 
@@ -23,7 +26,7 @@ public class Squirtle extends Pokemon implements IWater {
     }
 
     @Override
-    protected void attackByte() {
+    public void attackByte() {
         System.out.println("Hello! I'm Squirtle and this is my Byte Attack");
 
     }
